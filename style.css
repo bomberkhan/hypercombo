@@ -1,0 +1,85 @@
+a:link {
+    color: #f9ee3a;
+    text-decoration: none;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+a:visited {
+    color: #f9ee3a;
+}
+
+a:hover {
+    color: #cf2425;
+    text-shadow: 0 0 5px #ff0000;
+}
+
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    padding-right: 20px;
+    background: linear-gradient(0deg, transparent 0%, rgba(22, 22, 22, 1) 100%);
+}
+
+body {
+    background-color: #000070;
+    margin-top: 100px;
+
+
+}
+
+p {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255)
+}
+
+li {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255)
+}
+
+.artigo {
+    margin: 2px;
+    border: 1px solid #c2d3e1;
+    background-color: #000075;
+    background: linear-gradient(180deg, #000055 50%, rgb(0, 0, 0) 100%);
+    border-radius: 8px;
+
+}
+
+.text {
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+
+}
+
+p.text {
+    font-size: xx-large;
+
+}
+
+h1 {
+    color: white;
+    font-variant: small-caps;
+
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    color: white;
+    font-size: 40px;
+}
